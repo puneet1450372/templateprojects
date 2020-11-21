@@ -1,0 +1,466 @@
+* {box-sizing: border-box;}
+
+body{
+	margin: 0;
+	padding:0;
+}
+#navbar {
+ 
+  background-color: #f1f1f1;
+  padding: 50px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  font-family: "Varela Round", Helvetica, Arial, Lucida, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 14px;
+  font-color:rgba(0, 0, 0, 0.6);
+
+}
+
+.dropdown:hover .dropdown-menu
+{
+	display: block;
+}
+
+#navbar #logo {
+ 
+  transition: 0.5s;
+}
+@media (max-width:700px) {
+.main{
+		background-image:linear-gradient( 360deg, rgba(0, 0, 128,0.6) 45%,rgba(255,255,255,0) 0%) ,url('home8.jpg');
+		position: relative;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;}
+.con{  padding-top: 350px;}
+.im{width: 25%;margin-left: 95%; display: none;}
+.home-text-head{ font-size:42px; color: white;width: 210% ;font-family: "Varela Round", Helvetica, Arial, Lucida, sans-serif; font-style: normal;font-weight: 500;line-height: 42px;}
+.home-txt{font-size:20px;color: white;width: 210%;}
+.icon{font-size: 5vw; float:right;position: absolute;margin-top:25%;padding-left:80%;color:white;}
+
+.about{
+	margin-top: 14%;
+	background-image:linear-gradient( 360deg, rgba(0, 0, 128,0.7) 50%,rgba(255,255,255,0) 0%) ,url('home.jpg'); 
+	
+	position: relative;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;}
+.contact{
+	margin-top: 14%;
+	background-image:linear-gradient( 360deg, rgba(0, 0, 128,0.7) 50%,rgba(255,255,255,0) 0%) ,url('cont.jpg'); 
+	
+	position: relative;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;}
+
+.services{
+	margin-top: 14%;
+	background-image:linear-gradient( 360deg, rgba(0, 0, 128,0.7) 50%,rgba(255,255,255,0) 0%) ,url('electric.jpg'); 
+	
+	position: relative;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;}
+
+ .secondlast {
+  /* The image used */
+  background-image:linear-gradient( rgba(24, 25, 26,0.7),rgba(24, 25, 26,0.4)),url("bigbulb.jpg");
+
+  /* Set a specific height */
+ 
+	width: 100%; 
+	height:100vh;
+	position: relative;
+	text-align: center;
+  /* Create the parallax scrolling effect */
+  
+  background-position: left;
+  
+}
+}
+
+@media(min-width:700px ){
+ .main{
+	margin-top: 14%;
+	background-image:linear-gradient( 110deg, rgba(0, 0, 128,0.7) 50%,rgba(255,255,255,0) 0%) ,url('home8.jpg'); 
+	width: 100%; 
+	height:600px;
+	position: relative;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;}
+	
+	.about{
+	margin-top: 14%;
+	background-image:linear-gradient( 110deg, rgba(0, 0, 128,0.7) 50%,rgba(255,255,255,0) 0%) ,url('home.jpg'); 
+	width: 100%; 
+	height:600px;
+	position: relative;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;}
+.contact{
+	margin-top: 14%;
+	background-image:linear-gradient( 110deg, rgba(0, 0, 128,0.7) 50%,rgba(255,255,255,0) 0%) ,url('cont.jpg'); 
+	width: 100%; 
+	height:600px;
+	position: relative;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;}
+
+.services{
+	margin-top: 14%;
+	background-image:linear-gradient( 110deg, rgba(0, 0, 128,0.7) 50%,rgba(255,255,255,0) 0%) ,url('electric.jpg'); 
+	width: 100%; 
+	height:600px;
+	position: relative;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;}
+
+.secondlast {
+  /* The image used */
+  background-image:linear-gradient( rgba(24, 25, 26,0.7),rgba(24, 25, 26,0.4)),url("bigbulb.jpg");
+
+  /* Set a specific height */
+ 
+	width: 100%; 
+	height:100vh;
+	position: relative;
+	text-align: center;
+  /* Create the parallax scrolling effect */
+ 
+ }
+
+
+.con{  padding-top: 200px;}
+.im{
+	width: 12%;
+	margin-left: 20%;}
+.home-text-head{ font-size: 3vw; color: white;margin-left: 20%; }
+.home-txt{font-size: 2vw;color: white;margin-left: 20%; }
+.icon{font-size: 2vw; float:right;position: absolute;margin-top:24%;padding-left: 80%;color:white;}
+}
+
+.text1{position:absolute; z-index:1;padding-left:50%;padding-top: 25%;color: white; font-size: 3vw;}
+
+.text2{position:absolute; z-index:1;padding-left:33%;padding-top: 30%;color:white;font-family: Raleway, Helvetica, Arial, Lucida, sans-serif;  font-style: normal;line-height: 1;font-size: 2vw; width: 69%;text-align: center; ;}
+
+.but{ margin-top: 12%; margin-left: 33%;}
+
+.text3{position: absolute;z-index: 1;text-align: center; padding-top: 13%;color: white; line-height: 1}
+.button {
+  border-radius: 4px;
+  background-color:#ffffff00;
+ 
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 25px;
+  padding: 9px;
+  width: 190px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+
+  border:3px solid white;
+  
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button {
+  border-radius: 4px;
+  background-color:#ffffff00;
+ 
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 25px;
+  padding: 9px;
+  width: 190px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+
+  border:3px solid white;
+  
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}}
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}}
+
+.img-gradient{
+  position:relative;
+  display:inline-block;
+}
+ 
+.im-gradient:after {
+  content:'';
+  position:absolute;
+  left:0; top:0;
+  width:100%; 
+  height:100%;
+  display:inline-block; 
+  background: linear-gradient(rgba(0,47,75,0.5) 0%,rgba(0, 0, 0, 0.5) 100%);
+  }
+
+
+.black{
+	background-color: #262426;
+	
+	height: auto;
+	width: 100%;
+}
+#overflowTest{
+
+  background: #262426;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  height: 250px;
+  overflow: scroll;
+  overflow-x: hidden;
+  }
+ .bluee{
+ 	background-color: #000066;
+ 	width: 100%;
+ 	height: auto;
+ 	padding-bottom: 5%;
+ } 
+ .bluee h6{
+
+ 	text-align: center;
+ }
+ .bluee p{
+ text-align: center;
+  font-size:25px; 
+  color: white; 
+  width: 100%;
+   padding-top: 5%;
+
+  
+ }
+ 
+.about1{
+	font-family: "Varela Round", Helvetica, Arial, Lucida, sans-serif;
+font-style: normal;
+font-weight: 500;
+
+line-height:30px;
+color:#666666;
+
+text-align: center;
+
+}
+.about1center{
+	text-align: center;
+	
+
+}
+.about1centericon{
+	font-family: ETmodules;
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 36px;
+color:#001d69;
+}
+ .abouttitle{
+	font-family: "Varela Round", Helvetica, Arial, Lucida, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 22px;
+	color: #666666;
+}
+.abouttext{
+	font-family: "Varela Round", Helvetica, Arial, Lucida, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #666666;
+}
+	
+.card-color{
+ background-color: #eee;
+}
+
+.card-color:hover{
+	background-color: #ffffff;
+}
+
+
+.secondlastabout {
+  /* The image used */
+  background-image:linear-gradient( rgba(24, 25, 26,0.7),rgba(24, 25, 26,0.4)),url("about1.jpg");
+
+  /* Set a specific height */
+  
+	width: 100%; 
+	height:100vh;
+	position: relative;
+	text-align: center;
+  /* Create the parallax scrolling effect */
+  
+  
+  
+}
+.secondlastservices {
+  /* The image used */
+  background-image:linear-gradient( rgba(24, 25, 26,0.7),rgba(24, 25, 26,0.4)),url("service.jpg");
+
+  /* Set a specific height */
+  
+	width: 100%; 
+	height:100vh;
+	position: relative;
+	text-align: center;
+  /* Create the parallax scrolling effect */
+}
+
+.yellow{
+	background-color:#ffc645;
+	width: 100%;
+	height: 300px;
+}
+.yellowstyl{
+	font-family: "Varela Round", Helvetica, Arial, Lucida, sans-serif;
+	font-weight: 700;
+	font-size:26px;
+	line-height:26px ;
+	color:#666666;
+	font-style: normal;
+
+}
+.yellowlast{
+	font-family: "Varela Round", Helvetica, Arial, Lucida, sans-serif;
+	font-style: normal;
+	font-size: 35px;
+	font-weight: 500;
+	line-height: 35px;
+	color:#666666;
+}
+ .yellowsimple{
+ 	font-family:"Varela Round", Helvetica, Arial, Lucida, sans-serif;
+font-weight: 500;
+ }
+.imgtext{
+	color: white;
+	font-size: 3vw;
+	line-height: 1;
+	text-align: right;
+	width: 30%;
+	margin-left: 9%;
+
+}
+.imgsize{
+	width:60%;
+	float:center;
+	padding-left:20%;
+}
+.imgside{
+	padding-top: 70px;
+	font-size: 22px;
+	line-height: 22px;
+	color: #666666;
+	font-family: "Varela Round", Helvetica, Arial, Lucida, sans-serif;
+	font-style: normal;
+}
+.imgside1{
+	padding-top: 0px;
+	font-size: 16px;
+	line-height: 24px;
+	color: #666666;
+	font-family: Raleway, Helvetica, Arial, Lucida, sans-serif;
+
+	font-style: normal;
+	font-weight: 500;
+}
+
+@media(max-width: 355px){
+
+	
+	.text3{position: absolute;z-index: 1;text-align: center; padding-top: 2%;color: white; font-size: 4vw}
+	.icon{font-size: 5vw; float:right;position: absolute;margin-top:20%;padding-left: 90%;color:white;}
+
+}
+
+@media(max-width: 1000px) and (min-width: 700px){
+
+	.icon{font-size: 3vw; float:right;position: absolute;margin-top:9%;color:white; margin-left: 5%;}
+
+}.circle{
+	border:2px solid gray;
+	border-radius: 80px;
+	padding: 8px;
+	font-size: 25px;
+}
+@media(max-height:370px )and (min-height: 180px;){
+
+
+.icon{font-size: 2vw; float:right;position: absolute;margin-top:4%;color:white; margin-left: 10%;}
+.t{ padding-bottom: 130px !important; 
+
+}
+
+}
